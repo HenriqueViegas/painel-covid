@@ -1,0 +1,150 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  max-width: 90%;
+  margin: 2rem auto;
+
+
+  .contentBrasil {
+    background-color: var(--cyan-500);
+    border-radius: 0.5rem;
+    max-width: 30rem;
+    border-radius: 0.5rem 0.5rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    h2 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: var(--black-700);
+      color: var(--white-50);
+      height: 3rem;
+      border-radius: 0.5rem 0.5rem 0 0;
+    }
+
+    .groupBrasil {
+      display: flex;
+
+      .overview {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 0 1rem;
+
+        div {
+          color: var(--white-100);
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          margin: 1rem auto;
+
+          p {
+            font-size: 0.9rem;
+            margin-bottom: 0.2rem;
+          }
+
+          h3 {
+            font-size: 1.5rem;
+          }
+        }
+      }
+
+      .overviewMes {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 0 1rem;
+
+        div {
+          color: var(--white-100);
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          margin: 1rem auto;
+
+          p {
+            font-size: 0.9rem;
+            margin-bottom: 0.2rem;
+          }
+
+          h3 {
+            font-size: 1.5rem;
+          }
+        }
+      }
+    }
+
+  }
+
+
+  .contentMundo {
+    background-color: var(--white-100);
+    border-radius: 0.5rem;
+    max-width: 30rem;
+    border-radius: 0.5rem 0.5rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    h2 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: var(--black-700);
+      color: var(--white-50);
+      height: 3rem;
+      border-radius: 0.5rem 0.5rem 0 0;
+    }
+
+    .groupMundo {
+      display: flex;
+
+      .overview {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 0 1rem;
+
+        div {
+          color: var(--black-700);
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          margin: 1rem auto;
+
+          p {
+            font-size: 0.9rem;
+            margin-bottom: 0.2rem;
+          }
+
+          h3 {
+            font-size: 1.5rem;
+          }
+        }
+      }
+
+      .overviewMes {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 0 1rem;
+
+        div {
+          color: var(--black-700);
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          margin: 1rem auto;
+
+          p {
+            font-size: 0.9rem;
+            margin-bottom: 0.2rem;
+          }
+
+          h3 {
+            font-size: 1.5rem;
+          }
+        }
+      }
+    }
+  }
+}
